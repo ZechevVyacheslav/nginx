@@ -497,6 +497,7 @@ class Controller {
       case 13:
         if (state.isGameOver) {
           const prevResults = localStorage.getItem('results');
+          console.log(state.score);
           localStorage.setItem('results',  prevResults ? [...prevResults, state.score] : [state.score]);
           window.location = "http://ec2-3-22-166-238.us-east-2.compute.amazonaws.com/scoreboard.html";
         } else if (this.isPlaying) {

@@ -1,21 +1,24 @@
 * {
-    font-family: 'Press Start 2P', Consolas, monospace;
+  font-family: 'Press Start 2P', Consolas, monospace;
 }
 
 body {
-    margin: 0;
-    text-align: center;
+  margin: 0;
+  text-align: center;
 }
 
 button {
-    width: 7rem;
-    height: 2rem;
-    background-color: rgb(129, 129, 129);
+  width: 7rem;
+  height: 2rem;
+  background-color: rgb(129, 129, 129);
 }
 
 ol {
-    margin-top: 5rem;
-    padding: 0;
-    list-style: none;
+  margin-top: 5rem;
+  padding: 0;
+  list-style: none;
+}
 
+li {
+  padding: 0.5rem 0;
 }
