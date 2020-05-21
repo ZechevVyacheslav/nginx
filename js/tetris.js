@@ -496,8 +496,9 @@ class Controller {
     switch (event.keyCode) {
       case 13:
         if (state.isGameOver) {
-          // this.reset();
-          window.location = "http://ec2-3-22-166-238.us-east-2.compute.amazonaws.com/";
+          const prevResults = localStorage.getItem('results');
+          localStorage.setItem('results', [...prevResults, state.score]);
+          window.location = "http://ec2-3-22-166-238.us-east-2.compute.amazonaws.com/scoreboard.html";
         } else if (this.isPlaying) {
           this.pause();
         } else {
