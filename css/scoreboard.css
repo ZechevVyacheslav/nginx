@@ -12,3 +12,10 @@ button {
     height: 2rem;
     background-color: rgb(129, 129, 129);
 }
+
+ol {
+    margin-top: 5rem;
+    padding: 0;
+    list-style: none;
+
+}
