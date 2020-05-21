@@ -6,7 +6,7 @@ const list = document.createElement('ol');
 
 for (let i = 0; i < results.length; i++) {
     const li = document.createElement('li');
-    li.innerHTML = `${results[i]}`;
+    li.innerHTML = `Game - ${results[i]} points`;
     list.appendChild(li);
 }
 
