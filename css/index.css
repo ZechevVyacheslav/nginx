@@ -1,0 +1,27 @@
+* {
+    font-family: 'Press Start 2P', Consolas, monospace;
+}
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+form {
+    margin-top: 10rem;
+    font-family: inherit;
+}
+
+form * {
+    margin-top: 1rem;
+}
+
+label > input {
+    padding: 0.5rem;
+}
+
+form > input {
+    width: 7rem;
+    height: 2rem;
+    background-color: rgb(129, 129, 129);
+}
