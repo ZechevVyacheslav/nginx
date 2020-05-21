@@ -1,5 +1,5 @@
 const resultsRoot = document.querySelector('#resultsRoot');
-const results = localStorage.getItem('results');
+const results = localStorage.getItem('results').split(',');
 
 const list = document.createElement('ol');
 
